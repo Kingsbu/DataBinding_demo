@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun greetingMessage() {
-        binding.textView.text = binding.editTextPersonName.text
+        //binding.textView.text = binding.editTextPersonName.text
+        binding.user.name = binding.editTextPersonName.text.toString()
     }
 }
